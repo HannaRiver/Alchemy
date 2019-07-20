@@ -1,0 +1,21 @@
+CRCB_MODEL:
+  DIR: /work/tool/alchemy/models
+  SHRED_CA_PRINT_DET_LABELMAP: /work/tool/alchemy/models/ocr/crcb/det/ca/labelmap.prototxt
+  SHRED_CA_PRINT_DET_MODELDEF: /work/tool/alchemy/models/ocr/crcb/det/ca/CapitalMoneyRecogSSD.prototxt
+  SHRED_CA_PRINT_DET_MODELWEIGHT: /work/tool/alchemy/models/ocr/crcb/det/ca/CapitalMoneyRecogSSD.caffemodel
+  SHRED_CA_PRINT_DET_MEANVALUE: [185, 185, 185]
+  SHRED_CA_PRINT_DET_SCALE: 1
+  SHRED_CA_PRINT_DET_RESIZETYPE: ''
+  SHRED_CA_PRINT_DET_RESIZESIZE: [160, 480]
+  SHRED_CA_PRINT_REC_MODELDEF: /work/tool/alchemy/models/ocr/crcb/rec/ca/CapitalMoneyRecogLSTM.prototxt
+  SHRED_CA_PRINT_REC_MODELWEIGHT: /work/tool/alchemy/models/ocr/crcb/rec/ca/CapitalMoneyRecogLSTM.caffemodel
+  SHRED_CA_PRINT_REC_MEANVALUE: [150, 139, 138]
+  SHRED_CA_PRINT_REC_SCALE: 1
+  SHRED_CA_PRINT_REC_TIMESTEP: 60
+  SHRED_CA_PRINT_REC_RESIZETYPE: undeform_resize
+  SHRED_CA_PRINT_REC_RESIZESIZE: [48, 240]
+CRCB_DATA:
+  DOWNLOAD_DIR_PRINT: '/work/ocr/handwriting/data/org_print/download'
+  CHECKDATA_DIR_PRINT: '/work/ocr/handwriting/data/org_print/checkdata'
+  DET2REC_KEYDATE: '20181024'
+  DET2REC_RECITEM: CA
