@@ -1,0 +1,7 @@
+CRCB_DATA:
+  SHARE_SERVER: '192.168.20.252'
+  SHARE_FOLDER: 'cls_item'
+  RECITEM: 'CA'
+  SHARE_ISHD: False
+  DOWNLOAD_DIR_PRINT: '/work/ocr/handwriting/data/org_print/download'
+  KEYDATE: '20181024'

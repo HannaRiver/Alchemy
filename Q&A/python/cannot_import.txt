@@ -1,0 +1,1 @@
+"cannot import name '_validate_lengths'" --> pip install numpy==1.15.0 因为numpy版本太高
